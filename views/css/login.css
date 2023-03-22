@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --colorPrimario: #2471A3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login_container{
+    background: url("../img/fondoLogin.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login_form{
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    background: #000000d1;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.form_title{
+    font-family: 'Pacifico', cursive;
+    color: var(--colorPrimario);
+    font-size: 22px;
+}
+
+.form_input{
+    width: 80%;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--colorPrimario);
+    margin: 40px 0;
+    text-align: center;
+    font-size: 20px;
+    color: var(--colorPrimario);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 22px;
+    color: var(--colorPrimario);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn_login{
+    width: 80%;
+    height: 40px;
+    background: var(--colorPrimario);
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn_login:hover{
+   opacity: .8;
+}
